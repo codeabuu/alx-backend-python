@@ -4,7 +4,7 @@ that you’ve written and write an async routine
 called wait_n that takes in 2 int arguments'''
 
 
-import typing
+from typing import List
 import asyncio
 wait_random = __import__('0-basic_async_syntax').wait_random
 
